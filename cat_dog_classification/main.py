@@ -35,14 +35,14 @@ test_datagen = ImageDataGenerator(
 
 # converting the image to float type
 train_set = train_datagen.flow_from_directory(
-    directory='/content/dogs_vs_cats/train',
+    directory='demo_samples/train',
     target_size=(224,224),
     batch_size=32,
     class_mode='binary',
 )
 
 test_set = test_datagen.flow_from_directory(
-    directory='/content/dogs_vs_cats/test',
+    directory='demo_samples/test',
     target_size=(224,224),
     batch_size=32,
     class_mode='binary',
