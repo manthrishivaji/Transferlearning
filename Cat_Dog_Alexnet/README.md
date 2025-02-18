@@ -85,18 +85,13 @@ POST /predict
 ```
 **Request:**
 - Input: Image file (cat or dog)
-- Output: Predicted label ("cat" or "dog") with confidence score
+- Output: Predicted label ("cat" or "dog").
 
 ## Model Details
 - **Architecture:** AlexNet (Pretrained on ImageNet)
 - **Fine-Tuned Layers:** Fully connected layers
 - **Dataset:** Dogs vs. Cats dataset
 
-## Contribution
-Feel free to open issues or submit pull requests. Contributions are welcome!
-
-## License
-This project is licensed under the MIT License.
 
 ---
 Made with ❤️ by [shivaji]
