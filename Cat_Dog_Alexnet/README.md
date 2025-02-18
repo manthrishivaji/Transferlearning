@@ -47,7 +47,20 @@ Ensure you have the following installed:
 git clone https://github.com/your-username/Cat_Dog_Alexnet.git
 cd Cat_Dog_Alexnet
 ```
-### First download the model
+
+### Install required libraries
+#### for frontend
+```sh
+cd frontend
+pip install -r requirements.txt
+```
+#### for backend
+```sh
+cd backend
+pip install -r requirements.txt
+```
+
+### Then download the model in backend
 ```sh
 cd backend
 python model.py
